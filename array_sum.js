@@ -1,5 +1,7 @@
 function solution(a) {
-  // implement
+let sum = 0;
+let mapped = a.map(n => sum+= n);
+return sum; 
 }
 
 console.log(solution([]))
